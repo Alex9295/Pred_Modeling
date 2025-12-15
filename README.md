@@ -1,6 +1,6 @@
-## Titanic Survival Prediction - Machine Learning Project
+# Titanic Survival Prediction - Machine Learning Project
 
-# 🎯 Overview
+## 🎯 Overview
 This project implements a machine learning pipeline to predict whether a passenger survived the Titanic disaster based on their characteristics:
 Exploratory Data Analysis (EDA) to understand patterns and relationships
 
@@ -16,7 +16,7 @@ Feature Importance Analysis to understand model decisions
 
 Model Serialization for deployment
 
-📊 Dataset
+## 📊 Dataset
 The Titanic dataset contains information about 891 passengers with the following features:
 
 Feature	Description	Type	Notes
