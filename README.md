@@ -20,18 +20,12 @@ Model Serialization for deployment
 The Titanic dataset contains information about 891 passengers with the following features:
 
 Feature	Description	Type	Notes
-PassengerId	Unique ID for each passenger	Integer	Index
-Survived	Survival (0 = No, 1 = Yes)	Integer	Target Variable
-Pclass	Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)	Integer	Socioeconomic status
-Name	Passenger name	String	Contains titles
-Sex	Gender	String	Binary categorical
-Age	Age in years	Float	177 missing values
-SibSp	# of siblings/spouses aboard	Integer	Family size component
-Parch	# of parents/children aboard	Integer	Family size component
-Ticket	Ticket number	String	Alphanumeric
-Fare	Passenger fare	Float	Ticket price
-Cabin	Cabin number	String	687 missing values
-Embarked	Port of embarkation	String	C=Cherbourg, Q=Queenstown, S=Southampton
+
+Feature	          |Description  	                          |Type	     |Notes
+PassengerId	      |Unique ID for each passenger	            |Integer	 |Index
+Survived	        |Survival (0 = No, 1 = Yes)    	          |Integer	 |Target Variable
+Pclass	          |Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)	|Integer	 |Socioeconomic status
+
 Dataset Statistics:
 
 Total passengers: 891
@@ -41,3 +35,5 @@ Survived: 342 (38.4%)
 Died: 549 (61.6%)
 
 Missing values: Age (19.9%), Cabin (77.1%), Embarked (0.2%)
+
+
